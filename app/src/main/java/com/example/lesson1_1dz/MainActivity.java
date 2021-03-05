@@ -49,6 +49,6 @@ public class MainActivity extends AppCompatActivity {
         Uri uri = Uri.parse(uriText);
 
         send.setData(uri);
-        startActivity(Intent.createChooser(send, "Куда?"));
+        startActivity(Intent.createChooser(send, "Отправить через:"));
     }
 }
